@@ -218,6 +218,7 @@
     }
     .part {
         min-width: 250px;
+        
     }
 
     .reconocido {
@@ -324,6 +325,18 @@
 
 
 @media screen and (max-width: 768px) {
+
+    .part {
+        min-width: 250px;
+        flex-direction: column;
+        margin: 0px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .part img {
+        padding: 10px;
+    }
     .reconocido {
         min-height:auto;
         width:40%;
